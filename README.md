@@ -146,6 +146,9 @@ sudo python3 -m venv /opt/recibos-bot/.venv
 sudo /opt/recibos-bot/.venv/bin/pip install -r /opt/recibos-bot/requirements.txt
 ```
 
+Se o repositório for privado, o `git clone` vai pedir autenticação. Use uma *deploy key* (Settings → Deploy
+keys no GitHub, só leitura) e clone por `git@github.com:davivi-py/recibos-bot.git`.
+
 É preciso Python 3.10 ou mais novo (o Ubuntu 22.04 traz o 3.10 e o 24.04 traz o 3.12).
 
 ### 3. Variáveis de ambiente
